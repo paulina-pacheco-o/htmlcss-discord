@@ -14,6 +14,7 @@
 }
 
 ul {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 10px 0;
   display: flex;
   list-style: none;
@@ -25,18 +26,41 @@ ul {
 }
 
 h1,
-h3,
+p,
 .scarica-mac,
 .discord-browser {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 800px;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 80px;
+}
+
+.scarica-mac {
+  background-color: white;
+  color: black;
+}
+
+.discord-browser {
+  background-color: black;
+  color: white;
+}
+
+.scarica-mac,
+.discord-browser {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: center;
+  text-align: center;
+  width: 90px;
+  border-radius: 100px;
 }
 
 .container-jumbo {
   background-image: url(../img/jumbo.png);
   background-size: contain;
+  padding: 200px;
   text-align: center;
   align-items: center;
   height: 800px;
