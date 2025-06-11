@@ -13,6 +13,19 @@
   margin: 10px 0;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  color: white;
+}
+
+h2,
+h4 {
+  color: #6E87DC;
+}
+
 img {
   width: 70%;
   margin: 30px 30px 30px 280px;
@@ -147,6 +160,15 @@ ul {
   border-radius: 100px;
 }
 
+.container-darkgrey {
+  margin: 0;
+  display: flex;
+  gap: 0;
+  padding-top: 30px 25px 20x 25px;
+  background-color: #23272A;
+  height: 900px;
+}
+
 .container-jumbo {
   background-image: url(../img/jumbo.png);
   background-size: contain;
@@ -237,3 +259,5 @@ hr {
   background-color: #F6F6F6;
   height: 1400px;
 }
+
+.col-40 {}
